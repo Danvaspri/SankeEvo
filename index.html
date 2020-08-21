@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Sanke</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <!-- build:css css/main.css -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+   <link href="css/styles.css" rel="stylesheet">
+   <!-- endbuild -->
+
+</head>
+<body bg-color="#ebebd3">
+    <div class="container">
+        <div class="row">
+          <div class="col-6 ">
+                <canvas id="canvas"  ></canvas>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+                <div class="m-auto">
+                    <p class="text"> DIFFICULTY </p>
+                    <div class="btn-group" role="group" aria-label="difficulty">
+                        <button type="button" class="rButton" onClick="processingInstance.restart()">RESTART</button> 
+                        <button type="button" class="difButton" onClick="processingInstance.changeFrameRate(easy)">EASY</button>
+                        <button type="button" class="difButton" onClick="processingInstance.changeFrameRate(medium)">MEDIUM</button>
+                        <button type="button" class="difButton" onClick="processingInstance.changeFrameRate(hard)">HARD</button>    
+                    </div>
+                </div>
+            </div>
+       
+                <div class="row-content">
+                    <div class="row">
+                        <div type="button" class="btn-group m-auto  " role="group" aria-label="skins">
+                            <button class="skinButton col-4" onClick="processingInstance.changeSkin('defaultSkin')">
+                                <image src="img/defaultSkin/skin.png"></image>
+                            <h3> SANKE</h3>
+                            </button>
+                            <button type="button" class="skinButton col-4" onClick="processingInstance.changeSkin('skin1')">
+                                <image src="img/skin1/skin.png"></image>
+                            <h3> Ice </h3>
+                            </button>
+                            <button type="button" class="skinButton col-4" onClick="processingInstance.changeSkin('skin2')">
+                                <image src="img/skin2/skin.png"></image>
+                                <h3>Anthill</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+    
+                        <div type="button" class="btn-group  m-auto" role="group" aria-label="skins">
+                            <button type="button" class="skinButton col-6" onClick="processingInstance.changeSkin('skin3')">
+                                <image src="img/skin3/skin.png"></image>
+                                <h3>M.E.L.O.</h3>
+                            </button>
+                            <button type="button" class="skinButton col-6" onClick="processingInstance.changeSkin('skin4')">
+                                <image src="img/skin4/skin.png"></image>
+                                <h3>Classic</h3>
+                            </button> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
+               
+           
+        
+            
+          
+        
+
+    
+    <p class="text2">Sanke The Game v1.6.5 Beta. All Rights Reserved.</p>
+
+
+</div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+   
+       <!-- build:js js/main.js -->
+       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+       <script src="js/processing.js"></script>
+       <script src="js/functional-light.js"></script>
+       <script src="js/snake-functions.js"></script>
+       <script src="js/scripts.js"></script>
+       <!-- endbuild -->
+</body>
+
+</html>

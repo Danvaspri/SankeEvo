@@ -1,0 +1,101 @@
+
+    .canvas {
+        padding-right: 10px;
+        float: left;
+    }
+
+    .menuButtons button {
+        width: 140px;
+        margin: 2px;
+        display: block;
+    }
+
+    .restartButton {
+        text-decoration: none;
+        
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+  
+        border: 0px solid #0016b0;
+        width: 120px;
+    
+    }
+
+    .restartButton:hover {
+        color: #1883ba;
+        background-color: #ffffff;
+    }
+
+    .difButton {
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #18ba40;
+        border-radius: 0px;
+        border: 0px solid #015508;
+        margin-bottom: 10px;
+    }
+
+    .difButton:hover {
+        color: #015508;
+        background-color: #ffffff;
+    }
+    
+    .rButton {
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #414e9694;
+        border-radius: 0px;
+        border: 0px solid #015508;
+        margin-bottom: 10px;
+    }
+
+    .rButton:hover {
+        color: #414e9694;
+        background-color: #ffffff;
+    }
+
+    .skinButton {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 25px;
+        color: #ffffff;
+        background-color: #eb7b4f;
+     margin-bottom: 10px;
+        border: 0px solid #000000;
+        display: inline-block;
+     
+    }
+
+    .skinButton:hover {
+        color: #eb7b4f;
+        background-color: #ffffff;
+    }
+
+    .text {
+        font-family: impact, sans-serif;
+        font-size: 35px;
+
+        color: #000000;
+  
+
+            text-align:center;
+    }
+
+    .text2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        text-align: center;
+    }
